@@ -6,10 +6,7 @@ type Props = {};
 
 const HeroImage = (props: Props) => {
   return (
-    <div
-      className="relative  text-white w-full h-[650px]"
-      style={{ border: '1px solid blue' }}
-    >
+    <div className="relative  text-white w-full h-[650px]">
       <Image alt="hero image" src={heroImage} fill />
       <div className=" flex flex-col gap-4 absolute left-0 top-[50%] -translate-y-1/2   bg-[#2d425a]/60   p-6  ">
         <p>Quantum Pulse Consulting: Empowering Futures, Digitally Defined</p>

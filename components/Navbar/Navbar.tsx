@@ -12,12 +12,9 @@ const navLinkClass = cn(
 
 const Navbar = (props: Props) => {
   return (
-    <nav
-      className="w-screen px-8 py-2 flex items-center  text-white bg-[#040e17]"
-      style={{ border: '1px solid red' }}
-    >
+    <nav className="w-screen px-8 py-2 flex items-center  text-white bg-[#040e17]">
       <Image alt="navbar-logo" src={NavbarLogo} width={200} height={75} />
-      <div className="text-lg flex gap-6 ml-auto ">
+      <div className="text-lg flex gap-6 ml-auto pr-8">
         <Link className={navLinkClass} href="/">
           Quantum Pulse Consulting
         </Link>

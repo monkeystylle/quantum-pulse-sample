@@ -67,3 +67,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.noto_serif {
+  font-family: var(--font-noto_serif);
+}

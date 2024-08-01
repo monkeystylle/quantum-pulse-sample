@@ -9,17 +9,14 @@ type Props = {};
 
 const FinancialReportingSection = (props: Props) => {
   return (
-    <section
-      className="flex flex-col gap-4 text-white w-full h-[750px] py-16 "
-      style={{ border: '1px solid green' }}
-    >
+    <section className="flex flex-col gap-4 text-white w-full h-[750px] py-16 ">
       <div className="flex justify-end pr-16">
         <Button variant="outline" className="bg-black px-16 rounded-none ">
           Services
         </Button>
       </div>
 
-      <div className="flex h-[650px]  " style={{ border: '1px solid yellow' }}>
+      <div className="flex h-[650px]  ">
         <div className="relative h-full flex-1">
           <Image alt="financial image" src={fincialReportingImage} fill />
         </div>
