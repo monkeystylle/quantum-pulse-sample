@@ -3,6 +3,7 @@ import { Button } from '../ui/button';
 
 import Image from 'next/image';
 import fincialReportingImage from '../../public/images/financial-reporting-image.png';
+import { ChevronRight } from 'lucide-react';
 
 type Props = {};
 
@@ -33,6 +34,9 @@ const FinancialReportingSection = (props: Props) => {
             investement opportunities . Stay ahead with our expert analysis and
             actionable insights.
           </p>
+          <Button className="text-lg" variant="ghost">
+            Learn More <ChevronRight size={24} className="ml-1" />
+          </Button>
         </div>
       </div>
     </section>
