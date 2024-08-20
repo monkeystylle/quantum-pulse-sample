@@ -11,6 +11,7 @@ export default function Home() {
       <HeroImage />
       <FinancialReportingSection />
       <ContactSection />
+      <h6>sample</h6>
     </main>
   );
 }
